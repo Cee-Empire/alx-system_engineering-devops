@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo $(ls -p | tr '\n' ',' | sed 's/,$//')
+
