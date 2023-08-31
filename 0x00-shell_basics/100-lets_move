@@ -1,0 +1,13 @@
+
+if [ ! -d "/tmp/u" ]; then
+    mkdir -p /tmp/u
+fi
+
+for file in [A-Z]*; do
+    if [ -f "$file" ]; then
+        mv "$file" /tmp/u
+        echo "Moved $file to /tmp/u"
+    fi
+done
+
+
