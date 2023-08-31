@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "The type of the file is: $file_type"
+chmod +x file_type_script.sh
+./file_type_script.sh
+
