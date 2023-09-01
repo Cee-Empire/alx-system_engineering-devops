@@ -1,20 +1,2 @@
 #!/bin/bash
-#!/bin/bash
-
-# List files in the current directory
-echo "Files in current directory:"
-ls -la
-
-# Navigate to the parent directory and list files
-cd ..
-echo "Files in parent directory:"
-ls -la
-
-# Navigate to the /boot directory and list files
-cd /boot
-echo "Files in /boot directory:"
-ls -la
-
-chmod +x list_files.sh
-./list_files.sh
-
+ls -a . .. /boot
